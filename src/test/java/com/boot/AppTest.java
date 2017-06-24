@@ -8,6 +8,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by upgundecha on 02/04/16.
  */
+
 public class AppTest {
 
     @Test
@@ -16,4 +17,5 @@ public class AppTest {
         String result = hc.home();
         assertEquals(result, "Das Boot, reporting for duty!");
     }
+
 }
